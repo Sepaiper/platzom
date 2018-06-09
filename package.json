@@ -1,0 +1,23 @@
+{
+  "name": "platzom",
+  "version": "0.1.0",
+  "description": "traductor de idioma platzi",
+  "main": "dist/libs/platzom.js",
+  "scripts": {
+    "build": "babel libs/platzom.js -d dist",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sepaiper/platzom.git"
+  },
+  "author": "esteban macias <eestebanmp@hotmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-env": "^2.4.1",
+    "babel-preset-env": "^1.7.0",
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0"
+  }
+}
